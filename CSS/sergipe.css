@@ -1,0 +1,59 @@
+body {
+    background-color: #E0FFFF;
+}
+
+.subCaixa img {
+    height: auto;
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    border: 2px solid #DCDCDC;
+    background-color: white;
+    padding: 20px;
+}
+
+.paragrafo {
+    font-size: 20px;
+}
+
+.subCaixa {
+    border-color: black;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #FFF;
+}
+
+.subCaixa h2 {
+    border-bottom: 1px dashed #7E9F19;
+    margin: 0;
+
+}
+
+.subCaixa a {
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #7E9F19;
+    text-decoration: none;
+}
+
+h1:hover {
+    background-color: #7E9F19;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
