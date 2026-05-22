@@ -3,21 +3,23 @@ body {
 }
 
 .subCaixa img {
-    height: auto;
+    height: 300px;
     border: 1px solid black;
     float: left;
     margin: 10px 10px 0 0;
     padding: 20px;
     width: 50%;
-    box-sizing: border-box;
+}
+
+.places{
+    margin: 0 auto;
+    width: 960px;
+    display: inline-block;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1000px;
-    border: 2px solid #DCDCDC;
-    background-color: white;
-    padding: 20px;
+  float: left;
+  width: 660px;
 }
 
 .paragrafo {
@@ -28,12 +30,12 @@ body {
     border-color: black;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 20px;
     background-color: #FFF;
 }
 
 .subCaixa h2 {
-    border-bottom: 1px dashed #7E9F19;
+    border-bottom: 1px dashed #7E9F19; /*pontinhos no nome dos lugares*/
     margin: 0;
 
 }
@@ -43,17 +45,56 @@ body {
     font-weight: bold;
 }
 
-h1 {
+.container h1 {
     text-align: center;
     color: #7E9F19;
     text-decoration: none;
+    transition: 0.2s;
 }
 
-h1:hover {
+.container h1:hover {
     background-color: #7E9F19;
     color: #fff;
 }
 
+.subCaixa img{
+    border: 2px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0;
+    pad: 2px;
+    width: 50%;
+}
 .clear {
     clear: both;
 }
+
+.caixinha{
+    float: right;
+    background-color: #fffbe4;
+    border: 1px solid #c9bc8f;
+    padding: 10px;
+    width: 260px;
+    margin-bottom: 5px;
+}
+
+.caixinha h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.caixinha ol{
+    font-size: 12px;
+}
+
+.rodapé{
+    text-align: center;
+    padding: 5;
+    background-color: #fcfcfc;
+    color: black;
+}
+
+.navegador{
+    text-align: center;
+    padding: 2px;
+}
+

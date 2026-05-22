@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0FFFF;
+}
+
+.subCaixa img {
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 20px;
+    width: 50%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 50%;
+    border: 2px solid #DCDCDC;
+    background-color: white;
+    padding: 20px;
+}
+
+.paragrafo {
+    font-size: 20px;
+}
+
+.subCaixa {
+    border-color: black;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.subCaixa h2 {
+    border-bottom: 1px dashed #7E9F19; /*pontinhos no nome dos lugares*/
+    margin: 0;
+
+}
+
+.subCaixa a {
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+.container h1 {
+    text-align: center;
+    color: #7E9F19;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.container h1:hover {
+    background-color: #7E9F19;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.caixinha{
+    margin: auto auto 0;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    padding: 5;
+    background-color: #fcfcfc;
+    color: black;
+}
+
+nav{
+    text-align: center;
+    padding: 2px;
+}
