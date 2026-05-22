@@ -1,4 +1,4 @@
-# 🌍 Pontos Turísticos do nordeste.
+# 🌍 Pontos Turísticos do Nordeste.
 
 ## 📖 Sobre o projeto
 Este projeto foi desenvolvido como parte de um curso e tem como objetivo apresentar pontos turísticos de algumas cidades localizadas pelo nordeste.
