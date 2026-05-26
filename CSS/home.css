@@ -1,16 +1,17 @@
 body{
-    background-color: #E0FFFF;
-   
-}
-h1{
-  text-align: center;
-}
-nav{
-    text-align: center;
+  background-color: #EAF6F6;  
 }
 
 img{
-    max-width: 250px;
+    width: 250px;
     display: block;
     margin: auto;
+}
+
+.navegador{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
 }

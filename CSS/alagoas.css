@@ -1,11 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: #EAF6F6;
+    color: #374151;
+    font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #E0FFFF;
+.principal{
+    margin: 0 auto;
+    width: 965px;
 }
 
 .subCaixa img {
@@ -17,13 +18,15 @@ body {
     width: 50%;
 }
 
-.container {
+.places{
     margin: 0 auto;
-    max-width: 960px;
-    width: 50%;
-    border: 2px solid #DCDCDC;
-    background-color: white;
-    padding: 20px;
+    width: 960px;
+    display: inline-block;
+}
+
+.container {
+  float: left;
+  width: 660px;
 }
 
 .paragrafo {
@@ -36,10 +39,13 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #FFF;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0 , 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .subCaixa h2 {
-    border-bottom: 1px dashed #7E9F19; /*pontinhos no nome dos lugares*/
+    border-bottom: 1px dashed #1F2937; /*pontinhos no nome dos lugares*/
     margin: 0;
 
 }
@@ -51,33 +57,74 @@ body {
 
 .container h1 {
     text-align: center;
-    color: #7E9F19;
+    color: #1F2937;
     text-decoration: none;
     transition: 0.2s;
+
 }
 
 .container h1:hover {
-    background-color: #7E9F19;
+    background-color: #14B8A6;
     color: #fff;
 }
 
+.subCaixa img{
+    border: 2px solid #374151;
+    float: left;
+    margin: 10px 10px 0;
+    pad: 2px;
+    width: 50%;
+    border-radius: 5px;
+}
 .clear {
     clear: both;
 }
 
 .caixinha{
-    margin: auto auto 0;
     float: right;
+    background-color: white;
+    border: 1px solid #c9bc8f;
+    padding: 10px;
+    width: 260px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0 , 0, 0, 0.3);
 }
 
-footer{
+.caixinha h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.caixinha ol{
+    font-size: 12px;
+}
+
+.rodapé{
     text-align: center;
     padding: 5;
     background-color: #fcfcfc;
     color: black;
 }
 
-nav{
+.navegador{
     text-align: center;
     padding: 2px;
+}
+
+.navegador a{
+    color: white;
+}
+
+.navegador a:hover{
+    color: #14B8A6;
+}
+
+.banner{
+    background-color: #1F2937;
+}
+
+.banner img{
+    margin: auto;
 }
